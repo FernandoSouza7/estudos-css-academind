@@ -67,3 +67,19 @@ body {
     text-decoration: none;
     color: #0e4f1f;
 }
+
+.main-nav__item a:hover {
+    color: white;
+}
+
+.main-nav__item a::before,
+.main-nav__item a:active {
+    content: "(Link) ";
+    color: red;
+}
+
+#product-overview ::first-letter {
+    color: gold;
+}
+
+
